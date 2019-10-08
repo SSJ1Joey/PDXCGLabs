@@ -12,3 +12,5 @@ def main():
     amount = amount % 5
     print(amount // 1, 'Pennies')
     amount = amount % 1
+
+main()
