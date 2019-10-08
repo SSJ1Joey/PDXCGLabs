@@ -22,10 +22,10 @@ def kilometer():
 
 answer = input('What would you like to convert to Meters? (Feet, Miles, Meters or Kilometers)').lower()
 if answer == 'feet':
-    print(foot())
+    foot()
 elif answer == 'miles':
-    print(mile())
+    mile()
 elif answer == 'meters':
-    print(meters())
+    meters()
 elif answer == 'kilometers':
-    print(kilometer())
+    kilometer()
