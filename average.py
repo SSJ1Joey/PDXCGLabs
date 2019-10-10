@@ -1,9 +1,40 @@
-nums = [5, 0, 8, 3, 4, 1, 6]
 
-def average(x):
-    print(sum(x)/len(x))
+num_list = []
 
-average(nums)
+def average():
+    while True:
+        x = int(input('Please enter your numbers or type done: '))
+        num_list.append(x)
+        if x == 'done':
+            num_list.remove('done')
+            main() 
+            break
+            
+           
+
+def main():
+    print(num_list)
+    print(sum(num_list)/len(num_list))
+    
+
+average()
+main()
 
 
-#print(sum(nums)/len(nums))
+
+
+            
+            
+
+
+
+
+
+
+
+
+
+        
+            
+
+
