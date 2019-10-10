@@ -7,7 +7,7 @@ nums = ('1','2','3','4','5','6','7','8','9','10')
 
 def game():
     while True:
-        print('Try and guess what number im guessing... between 1 and 10: ' )
+        print('Try and guess what number im thinking... between 1 and 10: ' )
         user_choice = input()
         attempts = 0
         comp_choice = random.choice(nums)
