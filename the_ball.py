@@ -25,6 +25,15 @@ preds = [
     'Outlook not so good',
     'Very doubtful' ]
 
-input('Ask me anything: ')
-answer = random.choice(preds)
-print(answer)
+def game():
+    question = input('Ask me anything: ')
+    answer = random.choice(preds)
+    print(answer)
+    cont = input('Would you like to ask me anything else? (y/n): ')
+    if cont == 'y':
+        input('Ask me another question: ')
+        print(answer)
+    else:
+        print('Thank you, come again!')
+
+game()
