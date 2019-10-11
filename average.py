@@ -2,23 +2,23 @@
 num_list = []
 
 def average():
-    while True:
-        x = int(input('Please enter your numbers or type done: '))
+    z = int(input('How many numbers do you want to average?: '))
+    for item in range(0, z):
+        x = int(input('Please enter a number: '))
         num_list.append(x)
-        if x == 'done':
-            num_list.remove('done')
-            main() 
-            break
-            
-           
+    print(sum(num_list)/ z)
+        
 
-def main():
-    print(num_list)
-    print(sum(num_list)/len(num_list))
+            
+average()
+
+            
+            
+
     
 
-average()
-main()
+
+
 
 
 
