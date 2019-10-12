@@ -18,6 +18,7 @@ def pick_6():
     numbers.append(forth)
     numbers.append(fifth)
     numbers.append(sixth)
+    
 
 def ticket():
     t_list = []
@@ -27,15 +28,10 @@ def ticket():
     print(f'You chose {t_list}')
            
 
-def jackpot():
-    if ticket() == pick_6():
-        print('You won the Jackpot!(25,000)')
-        balance += 25000
-    else:
-        print('sorry no win')
-    
 
-ticket(pick_6())
+    
+pick_6()
+ticket()
 
     
 
