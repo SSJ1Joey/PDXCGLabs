@@ -19,27 +19,37 @@ def pick_6():
     numbers.append(fifth)
     numbers.append(sixth)
     
+    
+    
 
 def ticket():
+    pick_6()
     t_list = []
     for item in range(6):
-        nums = int(input('Please pick 6 numbers form 1 - 99: '))
+        nums = int(input('Please pick 6 numbers from 1 - 99: '))
         t_list.append(nums)
-    print(f'You chose {t_list}')
-           
+    print(f'You chose: {t_list}')
 
-
-    
-pick_6()
-ticket()
-
-    
-
+    if pick_6() == t_list:
+        balance += 25000000
+    elif pick_6() == t_list[1]:
+        balance += 100
+    elif pick_6() == t_list[2]:
+        balance += 100
 
     
+    
+    
+pick_6()  
+ticket()       
 
 
 
-pick_6()
+
+
+
+
+
+
 
 
