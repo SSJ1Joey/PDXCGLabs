@@ -2,8 +2,8 @@ low_nums = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eigh
 
 x = int(input('Give me a number to spell out: '))
 
-abc = low_nums[x]
+spell = low_nums[x]
 
-print('Here is your number spelled out:',abc)
+print('Here is your number spelled out:',spell)
 
 
