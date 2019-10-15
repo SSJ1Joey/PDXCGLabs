@@ -10,10 +10,9 @@ def rot():
    cipher = ''
 
    for i in range(x):
-      char = phrase[i] #breaks down phrase
-      loc = abc.find(char) #finds location of phrase in abc
-      new_loc = (loc + shift) % 26 #creates var to move whatever is put in shift...
-      #print(char, loc, new_loc)
+      char = phrase[i] 
+      loc = abc.find(char) 
+      new_loc = (loc + shift) % 26 
       cipher = cipher + abc[new_loc] 
 
    print(cipher)
