@@ -24,7 +24,11 @@ def spell():
         print(f'Here is your number spelled out: {tens[5]}{low_nums[x - 70]}')
     elif x >= 80 and x < 90:
         print(f'Here is your number spelled out: {tens[6]}{low_nums[x - 80]}')
-    elif x >= 90 and x < 100:{
+    elif x >= 90 and x < 100:
         print(f'Here is your number spelled out: {tens[7]}{low_nums[x - 90]}')
 
 spell()
+
+
+
+
