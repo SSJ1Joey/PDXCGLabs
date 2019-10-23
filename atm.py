@@ -1,32 +1,34 @@
 
-class atm():
+class atm:
     
-    def __init__(self, balance = 0, amount = 0):
+    def __init__(self, balance = 0):
         self.balance = balance
-        self.amount = amount
+       
 
-    def check_balance():
-        return f'Here is your current balance: {self.balance}'
+    
+    def check_balance(self):
+        return self.balance
 
+    
     def deposit(self, amount):
-        x = int(input('How much would you like to deposit?: '))
-
-
-       
-       
-    def check_withdrawal(self, amount): 
+        self.balance += amount
+        return self.balance
+        
+        
+    def check_withdrawal(self): 
         return self.balance >= withdrawal
         
 
-    def withdraw(self, amount): 
-         int(input('How much would you like to withdrawal?: '))
-
-
+    def withdraw(self, amount):
+        self.balance -= amount
+        return self.balance
+         
 
     def print_transactions():
         pass
 
 
 
-
-    
+my_acc = atm()
+my_acc.deposit(15)
+print(my_acc.check_balance())
