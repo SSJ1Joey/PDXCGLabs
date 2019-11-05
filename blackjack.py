@@ -44,9 +44,6 @@ def blackjack():
     for i in range(len(cards)):
         cards[i] = int(cards[i])
 
-    print(cards)
-
-
     if sum(cards) == 21:
         print('Blackjack!')
 
