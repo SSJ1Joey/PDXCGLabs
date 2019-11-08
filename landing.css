@@ -1,0 +1,37 @@
+.navbar-header {
+    background: lightgrey;
+    color: black;
+}
+
+body {
+    text-align: center;
+    background-color: darkslategray;
+}
+
+.thumbnail {
+    text-align: center;
+    background: lightgrey;
+    color: black;
+}
+
+.row {
+    text-align: center;
+    background: lightgrey;
+    color: black;
+}
+
+.jumbotron {
+    text-align: center;
+    background: lightgrey;
+    color: black;
+}
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: lightgrey;
+    color: black;
+    margin-top: 20px;
+}
+
