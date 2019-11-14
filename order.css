@@ -1,0 +1,42 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+  
+.header {
+    padding: 60px;
+    text-align: center;
+    background-image: url(Burrito.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    color: black;
+    font-size: 30px;
+}
+  
+ 
+.content {padding:20px;
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
